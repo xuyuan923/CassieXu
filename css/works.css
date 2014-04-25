@@ -1,0 +1,86 @@
+body{
+	float: left;
+	background: url('../images/bg.jpg') repeat;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+#header{
+	width: 100%;
+	min-width: 1160px;
+	height: 42px;
+	margin: 0 auto;
+	float: left;
+    background-color: #111;
+}
+.header_wrapper{
+	margin: 0 auto;
+	width: 1030px;
+}
+.header_wrapper .nav{
+	float: left;
+	padding: 10px 15px; 
+}
+.nav li{
+	float: left;	  
+}
+.nav li a{
+	text-decoration: none;
+	font:16px '微软雅黑';
+	color: #999;
+	padding: 0 15px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+}
+.nav li a:hover{
+	position: relative;
+	top: -3px;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	transition: .6s;
+	color: #ffffff;
+}
+.nav .works a{
+	color: #ffffff;
+}
+#main{
+	margin: 0 auto;
+}
+#main ul{
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 1030px;
+}
+#main ul .grid{
+	float: left;
+	width: 300px;
+	height: 210px;
+	background-color: #F3F3F3;
+	margin:30px 20px;
+	font: 16px '微软雅黑';
+	-webkit-transition: all .5s ease,box-shadow ease .5s;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+}
+.grid img{
+	margin-top: 10px;
+	width: 260px;
+	height: 100px;
+}
+.grid .title a{
+	line-height: 40px;
+	text-decoration: none;
+}
+.grid .title a:hover{
+	color: black;
+}
+.grid .info{
+	margin: 10px 20px;
+}
+.grid:hover{
+	-webkit-transform: translateY(-10px);
+	box-shadow:0 3px 13px rgba(34,25,25,1);
+	-webkit-box-shadow:0 3px 13px rgba(34,25,25,1);
+	-moz-box-shadow:0 3px 13px rgba(34,25,25,1);
+}

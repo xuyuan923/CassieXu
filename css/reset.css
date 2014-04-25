@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* -------------------------------------------------------------- 
+  
+   reset.css
+   * Resets default browser CSS.
+   
+-------------------------------------------------------------- */
+
+
+
+/** 清除内外边距 **/
+body,h1,h2,h3,h4,h5,h6,hr,p,
+blockquote,/* structural elements */
+dl,dt,dd,ul,ol,li,/* list elements */
+pre,/* ext frmatting elements */
+form,fieldset,legend,button,input,textarea,/* form elements */
+th,td,/* table elements */
+img/* img elements */{
+	border:medium none;
+	margin: 0;
+	padding: 0;
+}
+
+/** 设置默认字体 **/
+body,button,input, select,textarea{
+	font: 12px/1.5 '宋体',tahoma,srial,helvetica,sans-sefir;
+}
+h1,h2,h3,h4,h5,h6{ font-size: 100%;}
+em{font-style:normal;}
+
+/** 重置列表元素 **/
+ul,ol{ list-style: none;}
+
+/** 重置超链接元素 **/
+a { text-decoration: none; color:#333; outline: none;}
+a:hover {text-decoration: underline; color:#F40; }
+
+/** 重置图片元素 **/
+img{ border: 0;}
+
+/** 重置表格元素 **/
+table{ border-collapse: collapse; border-spacing: 0;}
+caption { text-align: left; font-weight: normal; }
+table,th { vertical-align: middle; }
+
+.clear{clear:both;font-size:0;height:0;width:0;padding:0;margin:0;}
+.clear-node{clear:both;}
